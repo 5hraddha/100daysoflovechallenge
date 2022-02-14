@@ -1,0 +1,14 @@
+# Desktop Services Store File
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# npm exact dependencies
+package-lock.json
+
+# webpack default dist folder
+dist/
