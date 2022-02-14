@@ -8,10 +8,9 @@ import "../pages/index.css";
 
 // Import any images
 import logo from "../images/logo.svg";
-import logo-mobile from "../images/logo-mobile.svg";
-import background-image from "../images/background-image.png";
-import background-image-mobile from "../images/background-image-mobile.png";
-
+import logoMobile from "../images/logo-mobile.svg";
+import heroImage from "../images/background-image.png";
+import heroImageMobile from "../images/background-image-mobile.png";
 
 import Api from "../components/Api.js";
 
@@ -32,5 +31,3 @@ api
     console.log(json);
   })
   .catch((err) => console.log(err));
-
-
