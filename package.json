@@ -1,0 +1,15 @@
+{
+  "name": "twitter-frontend-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently 'cd backend && npm run dev' 'cd frontend && npm run dev' "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
