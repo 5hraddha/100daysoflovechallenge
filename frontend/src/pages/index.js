@@ -8,9 +8,9 @@ import "../pages/index.css";
 
 // Import any images
 import logo from "../images/logo.svg";
-import logo-mobile from "../images/logo-mobile.svg";
-import background-image from "../images/background-image.png";
-import background-image-mobile from "../images/background-image-mobile.png";
+import logoMobile from "../images/logo-mobile.svg";
+import heroBgImage from "../images/background-image.png";
+import heroBgImageMobile from "../images/background-image-mobile.png";
 
 
 import Api from "../components/Api.js";
@@ -34,3 +34,5 @@ api
   .catch((err) => console.log(err));
 
 
+const footerLogo = document.querySelector(".footer__logo")
+footerLogo.src = logo
