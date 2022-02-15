@@ -1,0 +1,4 @@
+.hero__subtitle_animate_right {
+  animation: fadeInRight;
+  animation-duration: 2s;
+}

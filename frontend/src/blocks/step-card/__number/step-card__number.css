@@ -1,0 +1,61 @@
+.step-card__number {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 15px;
+  height: 50px;
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  border-radius: 50%;
+}
+
+.step-card__number::before {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ea7186 #ea7186 #ea7186 transparent;
+  border-radius: 50%;
+  transition: transform 2s linear;
+}
+
+.step-card__number::after {
+  content: "";
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ea7186 transparent #ea7186 #ea7186;
+  border-radius: 50%;
+  transition: all 2s linear;
+}
+
+.step-card:hover .step-card__number {
+  background-color: #ea7186;
+}
+
+.step-card:hover .step-card__number::before {
+  transform: rotate(380deg);
+}
+
+.step-card:hover .step-card__number::after {
+  transform: rotate(-380deg);
+}
+
+@media screen and (max-width: 768px) {
+  .step-card__number  {
+    margin: 20px 0;
+  }
+}

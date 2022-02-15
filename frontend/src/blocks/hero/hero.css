@@ -1,0 +1,17 @@
+.hero {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 82vh;
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 810px) {
+  .hero {
+    justify-content: center;
+  }
+}

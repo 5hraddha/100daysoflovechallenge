@@ -1,0 +1,20 @@
+.hero__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero__subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .hero__subtitle {
+    font-size: 18px;
+  }
+}
