@@ -1,0 +1,40 @@
+.footer__link {
+  margin: 0;
+  padding: 2px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  transition: all ease-in-out .2s;
+  display: flex;
+  align-items: center;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  opacity: .8;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__link{
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+  }
+}

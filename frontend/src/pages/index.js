@@ -7,16 +7,13 @@ import "animate.css";
 
 // Import images
 import logo from "../images/logo.svg";
-import logoMobile from "../images/logo-mobile.svg";
-import heroBgImage from "../images/background-image.png";
-import heroBgImageMobile from "../images/background-image-mobile.png";
 
 // Import modules
 import Api from "../components/Api.js";
 
 // Import constants
 import {
-  pageLogoImgElement,
+  pageLogoImgElements,
   hamburger,
   navList,
 } from "../utils/constants.js";
@@ -25,31 +22,11 @@ import {
 //                                        Set images                                             //
 // ********************************************************************************************* //
 
-pageLogoImgElement.src = logo;
+[...pageLogoImgElements].map(element => element.src = logo);
 
 // ********************************************************************************************* //
 //                              Establish connection with API                                    //
 // ********************************************************************************************* //
-const api = new Api({
-  baseUrl: "http://localhost:3000/api",
-  headers: {
-    "Content-Type": "application/json",
-  },
-});
-
-api
-  .getTweets()
-  .then((tweets) => {
-    const json = tweets === "" ? {} : JSON.parse(tweets);
-    console.log(json);
-  })
-  .catch((err) => console.log(err));
-
-
-const footerLogo = document.querySelector(".footer__logo")
-footerLogo.src = logo
-const headerLogo = document.querySelector(".logo__img")
-headerLogo.src = logo
 // const api = new Api({
 //   baseUrl: "http://localhost:3000/api",
 //   headers: {

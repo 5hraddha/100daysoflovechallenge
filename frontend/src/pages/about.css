@@ -27,19 +27,6 @@
 @import url(../blocks/hamburger/_active/hamburger_active.css);
 @import url(../blocks/hamburger/__bar/hamburger__bar.css);
 
-/* stylesheets for the block - hero */
-@import url(../blocks/hero/hero.css);
-@import url(../blocks/hero/__title/hero__title.css);
-@import url(../blocks/hero/__text/hero__text.css);
-@import url(../blocks/hero/__subtitle/hero__subtitle.css);
-@import url(../blocks/hero/__subtitle/_animate/hero__subtitle_animate_left.css);
-@import url(../blocks/hero/__subtitle/_animate/hero__subtitle_animate_right.css);
-@import url(../blocks/hero/__left-bracket/hero__left-bracket.css);
-@import url(../blocks/hero/__right-bracket/hero__right-bracket.css);
-
-/* stylesheets for the block - main */
-@import url(../blocks/main/main.css);
-@import url(../blocks/main/__container/main__container.css);
 
 /* stylesheets for the block - section */
 @import url(../blocks/section/section.css);
@@ -48,3 +35,26 @@
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__text/section__text.css);
+@import url(../blocks/section/__button/section__button.css);
+@import url(../blocks/section/__button-wrapper/section__button-wrapper.css);
+
+/* stylesheets for the block - footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__icon/_fb/footer__icon_fb.css);
+@import url(../blocks/footer/__icon/_instagram/footer__icon_instagram.css);
+@import url(../blocks/footer/__icon/_twitter/footer__icon_twitter.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css);
+@import url(../blocks/footer/__quote/footer__quote.css);
+@import url(../blocks/footer/__authors/footer__authors.css);
+@import url(../blocks/footer/__divider/footer__divider.css);
+
+/* header modifier */
+@import url(../blocks/header/_page/header_page_about.css);

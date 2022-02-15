@@ -1,4 +1,4 @@
-.main__container {
+.how-to-start__container {
   margin: 0 auto;
   padding: 0;
   max-width: 1440px;
@@ -7,25 +7,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .main__container {
+  .how-to-start__container {
     grid-template-columns: 82px 1fr 82px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .main__container {
+  .how-to-start__container {
     grid-template-columns: 50px 1fr 50px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .main__container {
+  .how-to-start__container {
     grid-template-columns: 20px 1fr 20px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .main__container {
+  .how-to-start__container {
     grid-template-columns: 10px 1fr 10px;
   }
 }

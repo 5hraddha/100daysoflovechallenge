@@ -1,0 +1,15 @@
+.footer__list-item {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list-item + .footer__list-item {
+  margin: 10px 0 0;
+}
+
+@media screen and (max-width: 375px) {
+  .footer__list-item + .footer__list-item {
+    margin: 0;
+    text-align: center;
+  }
+}
