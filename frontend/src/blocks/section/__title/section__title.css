@@ -7,6 +7,7 @@
   text-transform: uppercase;
   text-align: right;
   color: #ea7186;
+  align-self: center;
 }
 
 @media screen and (max-width: 768px) {
