@@ -1,5 +1,5 @@
 .section__image {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   /* grid-column: 2;
