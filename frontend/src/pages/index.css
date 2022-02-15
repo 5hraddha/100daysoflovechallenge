@@ -3,3 +3,19 @@
 
 /* stylesheets for the block - page */
 @import url(../blocks/page/page.css);
+
+/* footer blocks */
+@import url(../blocks/footer/footer.css);
+/* footer elements */
+@import url(../blocks/footer/__content/footer__content.css);
+/* @import url(../blocks/footer/__authors/footer__authors.css);
+@import url(../blocks/footer/__communities/footer__communities.css);
+@import url(../blocks/footer/__community-title/footer__community-title.css);
+@import url(../blocks/footer/__contact-us/footer__contact-us.css);
+
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__product-title/footer__product-title.css);
+@import url(../blocks/footer/__products/footer__products.css);
+@import url(../blocks/footer/__quote/footer__quote.css);
+@import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css); */
