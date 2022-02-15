@@ -1,0 +1,9 @@
+.step-card_reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .step-card_reverse {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 0 0;
+  width: 100%;
+  background: rgba(234, 113, 134, 0.98);
+  background-image: url(../../images/background-image.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0% 100%);
+  min-height: 95vh;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
