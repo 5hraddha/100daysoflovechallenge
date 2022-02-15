@@ -11,4 +11,4 @@ import heroImageMobile from "../images/background-image-mobile.png";
 
 import heartBallonsImage from "../images/holding-ballons-of-love-image.png";
 import heartFaceImage from "../images/heart-face-image.png";
-import heartHandsImage from "../images/share-your-love-image";
+import heartHandsImage from "../images/share-your-love-image.png";

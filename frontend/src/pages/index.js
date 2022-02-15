@@ -48,6 +48,8 @@ api
 
 const footerLogo = document.querySelector(".footer__logo")
 footerLogo.src = logo
+const headerLogo = document.querySelector(".logo__img")
+headerLogo.src = logo
 // const api = new Api({
 //   baseUrl: "http://localhost:3000/api",
 //   headers: {

@@ -1,10 +1,6 @@
 /* stylesheet from the external vendor */
 @import url(../vendor/normalize.css);
-<<<<<<< HEAD
-@import url(../vendor/fonts/fonts.css);
-=======
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
->>>>>>> develop
 
 /* stylesheets for the block - page */
 @import url(../blocks/page/page.css);
@@ -20,12 +16,10 @@
 @import url(../blocks/footer/__contact-us/footer__contact-us.css);
 @import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css);
 @import url(../blocks/footer/__quote/footer__quote.css);
-<<<<<<< HEAD
 @import url(../blocks/footer/__authors/footer__authors.css);
 @import url(../blocks/footer/__products-and-communities/footer__products-and-communities.css);
 
-=======
-@import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css); */
+@import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css);
 /* stylesheets for the block - header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -73,4 +67,3 @@
 @import url(../blocks/step-card/__number/step-card__number.css);
 @import url(../blocks/step-card/__divider/step-card__divider.css);
 @import url(../blocks/step-card/__text/step-card__text.css);
->>>>>>> develop
