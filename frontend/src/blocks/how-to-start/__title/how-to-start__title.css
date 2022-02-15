@@ -10,8 +10,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .how-to-start__title  {
+  .how-to-start__title {
     margin: 20px 0;
     text-align: center;
+    font-size: 35px;
   }
 }
