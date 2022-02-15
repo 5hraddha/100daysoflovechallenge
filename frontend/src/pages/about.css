@@ -1,5 +1,50 @@
 /* stylesheet from the external vendor */
 @import url(../vendor/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 /* stylesheets for the block - page */
 @import url(../blocks/page/page.css);
+
+/* stylesheets for the block - header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__menu/header__menu.css);
+
+/* stylesheets for the block - logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/__link/logo__link.css);
+
+/* stylesheets for the block - nav */
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_active/nav__list_active.css);
+
+/* stylesheets for the block - hamburger */
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/_active/hamburger_active.css);
+@import url(../blocks/hamburger/__bar/hamburger__bar.css);
+
+/* stylesheets for the block - hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__subtitle/_animate/hero__subtitle_animate_left.css);
+@import url(../blocks/hero/__subtitle/_animate/hero__subtitle_animate_right.css);
+@import url(../blocks/hero/__left-bracket/hero__left-bracket.css);
+@import url(../blocks/hero/__right-bracket/hero__right-bracket.css);
+
+/* stylesheets for the block - main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__container/main__container.css);
+
+/* stylesheets for the block - section */
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__about/section__about.css);
+@import url(../blocks/section/__wrapper/section__wrapper.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__image/section__image.css);
+@import url(../blocks/section/__text/section__text.css);
