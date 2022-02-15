@@ -28,10 +28,6 @@
 @import url(../blocks/hamburger/__bar/hamburger__bar.css);
 
 
-/* stylesheets for the block - main */
-@import url(../blocks/main/main.css);
-@import url(../blocks/main/__container/main__container.css);
-
 /* stylesheets for the block - section */
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__about/section__about.css);

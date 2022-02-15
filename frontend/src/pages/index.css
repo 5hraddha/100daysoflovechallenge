@@ -37,12 +37,10 @@
 @import url(../blocks/hero/__left-bracket/hero__left-bracket.css);
 @import url(../blocks/hero/__right-bracket/hero__right-bracket.css);
 
-/* stylesheets for the block - main */
-@import url(../blocks/main/main.css);
-@import url(../blocks/main/__container/main__container.css);
-
 /* stylesheets for the block - how-to-start */
 @import url(../blocks/how-to-start/how-to-start.css);
+@import url(../blocks/how-to-start/__container/how-to-start__container.css);
+@import url(../blocks/how-to-start/__content/how-to-start__content.css);
 @import url(../blocks/how-to-start/__steps/how-to-start__steps.css);
 @import url(../blocks/how-to-start/__title/how-to-start__title.css);
 
