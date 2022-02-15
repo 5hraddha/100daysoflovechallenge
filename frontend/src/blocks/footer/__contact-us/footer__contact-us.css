@@ -1,0 +1,17 @@
+.footer__contact-us {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 850px) {
+    .footer__contact-us {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__contact-us {
+        margin-top: 25px;
+    }
+}

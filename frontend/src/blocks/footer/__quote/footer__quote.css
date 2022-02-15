@@ -1,0 +1,17 @@
+.footer__quote {
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer__quote {
+        padding-bottom: 9px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__quote {
+        padding-bottom: 5px;
+    }
+}
