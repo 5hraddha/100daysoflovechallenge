@@ -27,7 +27,6 @@
 @import url(../blocks/hamburger/_active/hamburger_active.css);
 @import url(../blocks/hamburger/__bar/hamburger__bar.css);
 
-
 /* stylesheets for the block - section */
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__about/section__about.css);
@@ -35,6 +34,7 @@
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__text/section__text.css);
+@import url(../blocks/section/__text-wrapper/section__text-wrapper.css);
 @import url(../blocks/section/__button/section__button.css);
 @import url(../blocks/section/__button-wrapper/section__button-wrapper.css);
 
