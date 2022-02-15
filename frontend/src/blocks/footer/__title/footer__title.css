@@ -1,0 +1,27 @@
+.footer__title {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__title {
+    margin: 0 0 4px;
+    text-align: center;
+  }
+}

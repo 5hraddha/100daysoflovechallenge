@@ -1,27 +1,8 @@
 .footer {
-    max-width: 1440px;
-    background-color: #EA7186;
-    padding: 35px 75px;
-    color: white;
-    line-height: 27.24px;
-    margin: auto;
     box-sizing: border-box;
-}
-
-@media screen and (max-width: 1000px) {
-    .footer {
-        padding: 35px 20px;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .footer {
-        padding: 35px 10%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .footer {
-        padding: 20px 5%;
-    }
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 100%;
+    background-color: #ea7186;
+    color: #ffffff;
 }

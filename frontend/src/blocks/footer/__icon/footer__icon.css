@@ -1,0 +1,10 @@
+.footer__icon {
+  margin: 0 2px 0 0;
+  padding: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
