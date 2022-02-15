@@ -10,10 +10,6 @@ import logo from "../images/logo.svg";
 import logoMobile from "../images/logo-mobile.svg";
 import heroBgImage from "../images/background-image.png";
 import heroBgImageMobile from "../images/background-image-mobile.png";
-<<<<<<< HEAD
-
-=======
->>>>>>> 93b88ca18c34e7ce0e1f7fcef79f24e87777fe63
 
 // Import modules
 import Api from "../components/Api.js";
@@ -34,7 +30,6 @@ pageLogoImgElement.src = logo;
 // ********************************************************************************************* //
 //                              Establish connection with API                                    //
 // ********************************************************************************************* //
-<<<<<<< HEAD
 const api = new Api({
   baseUrl: "http://localhost:3000/api",
   headers: {
@@ -53,7 +48,6 @@ api
 
 const footerLogo = document.querySelector(".footer__logo")
 footerLogo.src = logo
-=======
 // const api = new Api({
 //   baseUrl: "http://localhost:3000/api",
 //   headers: {
@@ -83,4 +77,3 @@ const closeMobileMenu = () => {
   hamburger.classList.remove("hamburger_active");
   navList.classList.remove("nav__list_active");
 }
->>>>>>> 93b88ca18c34e7ce0e1f7fcef79f24e87777fe63
