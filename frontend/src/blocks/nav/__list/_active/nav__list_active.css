@@ -1,0 +1,22 @@
+.nav__list_active {
+  z-index: 10;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__list_active {
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav__list_active {
+    left: -20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav__list_active {
+    left: -10px;
+  }
+}

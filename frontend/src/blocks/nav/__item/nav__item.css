@@ -1,0 +1,38 @@
+.nav__item {
+  margin: 0;
+  padding: 5px 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.17;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all ease-in-out .2s;
+}
+
+.nav__item:hover {
+  background-color: #ea7186;
+  outline: 1px solid #ffffff;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__item {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__item {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+

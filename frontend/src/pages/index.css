@@ -1,6 +1,10 @@
 /* stylesheet from the external vendor */
 @import url(../vendor/normalize.css);
+<<<<<<< HEAD
 @import url(../vendor/fonts/fonts.css);
+=======
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+>>>>>>> develop
 
 /* stylesheets for the block - page */
 @import url(../blocks/page/page.css);
@@ -16,6 +20,57 @@
 @import url(../blocks/footer/__contact-us/footer__contact-us.css);
 @import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css);
 @import url(../blocks/footer/__quote/footer__quote.css);
+<<<<<<< HEAD
 @import url(../blocks/footer/__authors/footer__authors.css);
 @import url(../blocks/footer/__products-and-communities/footer__products-and-communities.css);
 
+=======
+@import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css); */
+/* stylesheets for the block - header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__menu/header__menu.css);
+
+/* stylesheets for the block - logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/__link/logo__link.css);
+
+/* stylesheets for the block - nav */
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_active/nav__list_active.css);
+
+/* stylesheets for the block - hamburger */
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/_active/hamburger_active.css);
+@import url(../blocks/hamburger/__bar/hamburger__bar.css);
+
+/* stylesheets for the block - hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__subtitle/_animate/hero__subtitle_animate_left.css);
+@import url(../blocks/hero/__subtitle/_animate/hero__subtitle_animate_right.css);
+@import url(../blocks/hero/__left-bracket/hero__left-bracket.css);
+@import url(../blocks/hero/__right-bracket/hero__right-bracket.css);
+
+/* stylesheets for the block - main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__container/main__container.css);
+
+/* stylesheets for the block - how-to-start */
+@import url(../blocks/how-to-start/how-to-start.css);
+@import url(../blocks/how-to-start/__steps/how-to-start__steps.css);
+@import url(../blocks/how-to-start/__title/how-to-start__title.css);
+
+/* stylesheets for the block - step-card */
+@import url(../blocks/step-card/step-card.css);
+@import url(../blocks/step-card/_reverse/step-card_reverse.css);
+@import url(../blocks/step-card/__number/step-card__number.css);
+@import url(../blocks/step-card/__divider/step-card__divider.css);
+@import url(../blocks/step-card/__text/step-card__text.css);
+>>>>>>> develop

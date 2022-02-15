@@ -3,3 +3,12 @@
 // ********************************************************************************************* //
 // Import main stylesheet
 import "../pages/about.css";
+
+import logo from "../images/logo.svg";
+import logoMobile from "../images/logo-mobile.svg";
+import heroImage from "../images/background-image.png";
+import heroImageMobile from "../images/background-image-mobile.png";
+
+import heartBallonsImage from "../images/holding-ballons-of-love-image.png";
+import heartFaceImage from "../images/heart-face-image.png";
+import heartHandsImage from "../images/share-your-love-image";

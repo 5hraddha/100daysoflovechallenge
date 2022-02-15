@@ -1,0 +1,14 @@
+.hamburger__bar {
+  margin: 8px auto;
+  padding: 0;
+  display: block;
+  width: 55px;
+  height: 5px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  transition: transform 0.5s;
+}
+
+.hamburger__bar:nth-child(2) {
+  transform: scale(1);
+}

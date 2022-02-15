@@ -1,0 +1,26 @@
+.nav__list {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__list {
+    padding: 20px 0;
+    position: absolute;
+    left: -150%;
+    top: 120px;
+    width: 100vw;
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    transition: all 0.5s ease-out;
+  }
+}

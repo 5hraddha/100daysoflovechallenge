@@ -1,0 +1,17 @@
+.hero__right-bracket {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  height: 100px;
+  background-image: url(../../../images/right-bracket.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(-70%);
+}
+
+@media screen and (max-width: 810px) {
+  .hero__right-bracket {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.step-card__text {
+  margin: 0;
+  padding: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .step-card__text {
+    text-align: center;
+  }
+}

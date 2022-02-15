@@ -1,0 +1,19 @@
+.nav__link {
+  margin: 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__link {
+    color: #ea7186;
+  }
+
+  .nav__link:hover {
+    color: #ffffff;
+  }
+}

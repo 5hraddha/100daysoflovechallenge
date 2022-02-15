@@ -1,0 +1,6 @@
+.step-card__divider {
+  margin: 0 30px;
+  min-height: 100%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}

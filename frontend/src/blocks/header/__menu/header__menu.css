@@ -1,0 +1,9 @@
+.header__menu {
+  margin: 0;
+  padding: 0;
+  grid-column: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
