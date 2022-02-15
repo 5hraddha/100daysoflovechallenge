@@ -4,3 +4,9 @@
   width: 125px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 690px) {
+  .logo__img {
+    width: 100px;
+  }
+}
