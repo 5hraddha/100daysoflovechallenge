@@ -3,4 +3,5 @@
   padding: 0;
   grid-column: 2;
   width: 100%;
+  max-width: 1092px;
 }
