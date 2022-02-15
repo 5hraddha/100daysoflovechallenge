@@ -28,8 +28,9 @@ heartFace.src = heartFaceImage
 const heartWithHands = document.querySelector("#heart-with-hands-img")
 heartWithHands.src = heartHandsImage
 
-const footerLogo = document.querySelector(".footer__logo")
-footerLogo.src = logo
+const footerLogo = document.querySelector("footer .logo__img");
+footerLogo.src = logo;
+
 // const imgTag = document.querySelector(".section__image");
 // imgTag.src = heartFaceImage;
 

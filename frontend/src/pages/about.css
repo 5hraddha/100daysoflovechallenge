@@ -42,14 +42,23 @@
 @import url(../blocks/section/__button/section__button.css);
 @import url(../blocks/section/__button-wrapper/section__button-wrapper.css);
 
-/* footer blocks */
+/* stylesheets for the block - footer */
 @import url(../blocks/footer/footer.css);
-/* footer elements */
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__icon/_fb/footer__icon_fb.css);
+@import url(../blocks/footer/__icon/_instagram/footer__icon_instagram.css);
+@import url(../blocks/footer/__icon/_twitter/footer__icon_twitter.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__quote-and-authors/footer__quote-and-authors.css);
 @import url(../blocks/footer/__quote/footer__quote.css);
 @import url(../blocks/footer/__authors/footer__authors.css);
-@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/__divider/footer__divider.css);
 
 /* header modifier */
 @import url(../blocks/header/_page/header_page_about.css);
