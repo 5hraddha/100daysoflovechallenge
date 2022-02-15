@@ -3,21 +3,38 @@
 // ********************************************************************************************* //
 // Import main stylesheet
 import "../pages/index.css";
+import "animate.css";
 
-// Import main stylesheet
-
-// Import any images
+// Import images
 import logo from "../images/logo.svg";
 import logoMobile from "../images/logo-mobile.svg";
 import heroBgImage from "../images/background-image.png";
 import heroBgImageMobile from "../images/background-image-mobile.png";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 93b88ca18c34e7ce0e1f7fcef79f24e87777fe63
 
+// Import modules
 import Api from "../components/Api.js";
+
+// Import constants
+import {
+  pageLogoImgElement,
+  hamburger,
+  navList,
+} from "../utils/constants.js";
+
+// ********************************************************************************************* //
+//                                        Set images                                             //
+// ********************************************************************************************* //
+
+pageLogoImgElement.src = logo;
 
 // ********************************************************************************************* //
 //                              Establish connection with API                                    //
 // ********************************************************************************************* //
+<<<<<<< HEAD
 const api = new Api({
   baseUrl: "http://localhost:3000/api",
   headers: {
@@ -36,3 +53,34 @@ api
 
 const footerLogo = document.querySelector(".footer__logo")
 footerLogo.src = logo
+=======
+// const api = new Api({
+//   baseUrl: "http://localhost:3000/api",
+//   headers: {
+//     "Content-Type": "application/json",
+//   },
+// });
+
+// api
+//   .getTweets()
+//   .then((tweets) => {
+//     const json = tweets === "" ? {} : JSON.parse(tweets);
+//     console.log(json);
+//   })
+//   .catch((err) => console.log(err));
+
+
+// Function to toggle hamburger
+const toggleHamburger = () => {
+  hamburger.classList.toggle("hamburger_active");
+  navList.classList.toggle("nav__list_active");
+}
+
+hamburger.addEventListener("click", toggleHamburger);
+
+// Function to close the mobile menu if any of the menu link is clicked
+const closeMobileMenu = () => {
+  hamburger.classList.remove("hamburger_active");
+  navList.classList.remove("nav__list_active");
+}
+>>>>>>> 93b88ca18c34e7ce0e1f7fcef79f24e87777fe63

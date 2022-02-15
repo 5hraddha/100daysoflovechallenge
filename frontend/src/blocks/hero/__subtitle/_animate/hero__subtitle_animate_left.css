@@ -1,0 +1,4 @@
+.hero__subtitle_animate_left {
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}

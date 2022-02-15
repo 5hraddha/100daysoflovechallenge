@@ -1,0 +1,21 @@
+.hero__text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-30%);
+}
+
+@media screen and (max-width: 1200px) {
+  .hero__text {
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .hero__text {
+    transform: translateY(-60%);
+  }
+}
