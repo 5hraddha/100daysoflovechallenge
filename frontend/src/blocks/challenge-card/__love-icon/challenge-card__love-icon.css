@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   width: 96.64px;
-  height: 90px;
+  height: 96.64px;
+  background-color: #ffffff;
   background-image: url(../../../images/card-love-icon.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   box-shadow: 0 0 0 8px #ffffff;
   border-radius: 50%;
+  position: relative;
+  bottom: -12%;
 }

@@ -64,6 +64,8 @@
 @import url(../blocks/challenge-card/__title/challenge-card__title.css);
 @import url(../blocks/challenge-card/__love-icon/challenge-card__love-icon.css);
 @import url(../blocks/challenge-card/__details/challenge-card__details.css);
+@import url(../blocks/challenge-card/__subtitle/challenge-card__subtitle.css);
+@import url(../blocks/challenge-card/__header/challenge-card__header.css);
 
 /* stylesheets for the block - slider */
 @import url(../blocks/slider/slider.css);

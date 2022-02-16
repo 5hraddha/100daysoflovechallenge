@@ -27,6 +27,20 @@ class Api {
       .then(this. _checkResponseStatus);
   }
 
+  getAuthorId = (tweetId) => {
+    return fetch(`${this._baseUrl}/tweets/${tweetId}`, {
+      headers: this._headers
+    })
+      .then(this. _checkResponseStatus);
+  }
+
+  getAuthorInfo = (authorId) => {
+    return fetch(`${this._baseUrl}/users/${authorId}`, {
+      headers: this._headers
+    })
+      .then(this. _checkResponseStatus);
+  }
+
 }
 
 export default Api;
