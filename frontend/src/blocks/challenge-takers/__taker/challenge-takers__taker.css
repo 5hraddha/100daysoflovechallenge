@@ -1,4 +1,4 @@
-.challenge-takers__taker {
+/* .challenge-takers__taker {
     box-sizing: border-box;
     margin: 0;
     padding: 40px;
@@ -11,4 +11,14 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+} */
+
+.challenge-takers__taker {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(282px, 1fr);
+    grid-template-rows: 282px 79px;
 }
