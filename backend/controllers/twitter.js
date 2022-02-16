@@ -22,7 +22,7 @@ const getTweetsOnHashtag = (req, res) => {
     .then((data) => {
       const bearerToken = data.access_token;
       // Get the tweets using the Bearer Token
-      fetch(`${baseUrl}/tweets/search/recent?query=%23nfl`, {
+      fetch(`${baseUrl}/tweets/search/recent?query=%23100daysoflovechallenge`, {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${bearerToken}`,

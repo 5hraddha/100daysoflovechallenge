@@ -1,18 +1,3 @@
-/* .challenge-takers__taker {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 40px;
-    width: 100%;
-    max-width: 400px;
-    min-height: 420px;
-    border-radius: 5px;
-    background: linear-gradient(to top,#ffffff 55%, #ea7186 55%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-} */
-
 .challenge-takers__taker {
     box-sizing: border-box;
     margin: 0;
@@ -20,5 +5,9 @@
     position: relative;
     display: grid;
     grid-template-columns: minmax(282px, 1fr);
-    grid-template-rows: 282px 79px;
+    grid-template-rows: 80px 220px;
+    border-radius: 5px;
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
 }
