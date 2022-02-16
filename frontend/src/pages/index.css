@@ -80,6 +80,12 @@
 @import url(../blocks/challenge-takers/__container/challenge-takers__container.css);
 @import url(../blocks/challenge-takers/__content/challenge-takers__content.css);
 @import url(../blocks/challenge-takers/__title/challenge-takers__title.css);
+@import url(../blocks/challenge-takers/__takers-container/challenge-takers__takers-container.css);
+@import url(../blocks/challenge-takers/__taker/challenge-takers__taker.css);
+@import url(../blocks/challenge-takers/__header/challenge-takers__header.css);
+@import url(../blocks/challenge-takers/__taker-name/challenge-takers__taker-name.css);
+@import url(../blocks/challenge-takers/__taker-pic/challenge-takers__taker-pic.css);
+@import url(../blocks/challenge-takers/__taker-tweet/challenge-takers__taker-tweet.css);
 
 /* stylesheets for the block - footer */
 @import url(../blocks/footer/footer.css);

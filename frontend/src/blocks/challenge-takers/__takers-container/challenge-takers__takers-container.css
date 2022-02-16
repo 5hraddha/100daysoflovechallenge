@@ -1,0 +1,17 @@
+.challenge-takers__takers-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding: 0;
+    column-gap: 2%;
+    margin: 50px 0;
+    max-width: calc(1440 - 92 * 2);
+}
+
+@media screen and (max-width: 768px) {
+    .challenge-takers__takers-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+}

@@ -1,3 +1,18 @@
 .challenge-takers__title {
-  
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: right;
+    color: #EA7186;
 }
+
+
+@media screen and (max-width: 768px) {
+    .challenge-takers__title  {
+      margin: 20px 0;
+      text-align: center;
+    }
+  }
