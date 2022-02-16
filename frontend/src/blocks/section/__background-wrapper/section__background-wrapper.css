@@ -1,4 +1,7 @@
 .section__background-wrapper {
-    background-color: #B6D8F2;
-    width: 100%;
-  }
+  /* background-color: #b6d8f2;
+  width: 100%;
+  display: flex;
+  direction: ltr;
+  flex-direction: row-reverse; */
+}
