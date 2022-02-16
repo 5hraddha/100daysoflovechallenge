@@ -10,6 +10,7 @@ import logo from "../images/logo.svg";
 
 // Import modules
 import Api from "../components/Api.js";
+import Card from "../components/Card.js";
 
 // Import constants
 import {
@@ -22,6 +23,7 @@ import {
   challengeCardDetails,
   shareLoveMsgTextAreaElement,
   shareLoveTwitterButton,
+  challengeTakersCardList,
 } from "../utils/constants.js";
 import listOfChallenges, { dailyChallenges } from "../utils/challenges.js";
 
@@ -34,38 +36,46 @@ import listOfChallenges, { dailyChallenges } from "../utils/challenges.js";
 // ********************************************************************************************* //
 //                              Establish connection with API                                    //
 // ********************************************************************************************* //
-// const api = new Api({
-//   baseUrl: "http://localhost:3000/api",
-//   headers: {
-//     "Content-Type": "application/json",
-//   },
-// });
+const api = new Api({
+  baseUrl: "http://localhost:3000/api",
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
 
 // ********************************************************************************************* //
-//                             Fetch recent tweets and author info                               //
+//              Fetch recent tweets and author info and create challenge takers card             //
 // ********************************************************************************************* //
 // Get recent tweets
-// api
-//   .getTweets()
-//   .then((tweets) => tweets === "" ? {} : JSON.parse(tweets))
-//   .then((jsonTweets) => {
-//     [...jsonTweets].slice(0, 3).map(tweet => {
-//       // Get ID of the author of the recent tweets
-//       api
-//         .getAuthorId(tweet.id)
-//         .then((res) => JSON.parse(res))
-//         .then((res) => {
-//           // Get profile info of the author
-//           api
-//             .getAuthorInfo(res[0].author_id)
-//             .then((res) => JSON.parse(res))
-//             .then((res) => console.log(res[0]))
-//             .catch((err) => console.log(err));
-//         })
-//         .catch((err) => console.log(err));
-//     });
-//   })
-//   .catch((err) => console.log(err));
+const getRecentTweets = () => {
+  challengeTakersCardList.innerHTML = '';
+  api
+  .getTweets()
+    .then((tweets) => tweets === "" ? {} : JSON.parse(tweets))
+    .then((jsonTweets) => {
+      [...jsonTweets].slice(0, 8).map(tweet => {
+        // Get ID of the author of the recent tweets
+        api
+          .getAuthorId(tweet.id)
+            .then((res) => JSON.parse(res))
+            .then((res) => {
+              // Get profile info of the author
+              api
+                .getAuthorInfo(res[0].author_id)
+                  .then((res) => JSON.parse(res))
+                  .then((res) => {
+                    const newChallengeTakerCard = new Card("#card-template", res[0], tweet.text).generateCard();
+                    challengeTakersCardList.append(newChallengeTakerCard);
+                  })
+                  .catch((err) => console.log(err));
+            })
+          .catch((err) => console.log(err));
+      });
+  })
+  .catch((err) => console.log(err));
+}
+
+getRecentTweets();
 
 // ********************************************************************************************* //
 //                                 Set 100 days of challenges                                    //
@@ -102,6 +112,7 @@ shareLoveTwitterButton.addEventListener("click", () => {
   const msg = shareLoveMsgTextAreaElement.textContent;
   const urlEncodedMsg = encodeURIComponent(msg);
   shareLoveTwitterButton.href = `https://twitter.com/intent/tweet?text=${urlEncodedMsg}`;
+  getRecentTweets();
 })
 
 // ********************************************************************************************* //

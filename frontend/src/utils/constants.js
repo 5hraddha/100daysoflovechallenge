@@ -7,4 +7,4 @@ export const challengeCardSubtitleElement = document.querySelector(".challenge-c
 export const challengeCardDetails = document.querySelector(".challenge-card__details");
 export const shareLoveMsgTextAreaElement = document.querySelector(".share-love__msg");
 export const shareLoveTwitterButton = document.querySelector(".share-love__twitter-btn");
-
+export const challengeTakersCardList = document.querySelector(".challenge-takers__takers-container");

@@ -51,172 +51,164 @@
         </section>
       </div>
     </header>
-           
-  <main class="main">
-    <div class="main__container">
+    <main>
       <section class="how-to-start">
-        <h2 class="how-to-start__title" id="how-can-i-start-index">How can I start?</h2>
-        <ul class="how-to-start__steps">
-          <li class="step-card">
-            <p class="step-card__number">1</p>
-            <div class="step-card__divider"></div>
-            <p class="step-card__text">There is a brand new challenge every day.
-            Want to start from Day 1? No problem! Use the slide bar to find out previous challenges.</p>
-          </li>
-          <li class="step-card step-card_reverse">
-            <p class="step-card__number">2</p>
-            <div class="step-card__divider"></div>
-            <p class="step-card__text">Find someone - a stranger, a co-worker, a neighbor,
-              a friend or a loved one, and spread the love by completing the challenge in action.</p>
-          </li>
-          <li class="step-card">
-            <p class="step-card__number">3</p>
-            <div class="step-card__divider"></div>
-            <p class="step-card__text">Share it with the world.
-              Post on Twitter and use <strong>#100DaysOfLoveChallenge<strong>.</p>
-          </li>
-        </ul>
+        <div class="how-to-start__container">
+          <div class="how-to-start__content">
+            <h2 class="how-to-start__title" id="how-can-i-start-index">How can I start?</h2>
+            <ul class="how-to-start__steps">
+              <li class="step-card">
+                <p class="step-card__number">1</p>
+                <div class="step-card__divider"></div>
+                <p class="step-card__text">There is a brand new challenge every day.
+                Want to start from Day 1? No problem! Use the slide bar to find out previous challenges.</p>
+              </li>
+              <li class="step-card step-card_reverse">
+                <p class="step-card__number">2</p>
+                <div class="step-card__divider"></div>
+                <p class="step-card__text">Find someone - a stranger, a co-worker, a neighbor,
+                  a friend or a loved one, and spread the love by completing the challenge in action.</p>
+              </li>
+              <li class="step-card">
+                <p class="step-card__number">3</p>
+                <div class="step-card__divider"></div>
+                <p class="step-card__text">Share it with the world.
+                  Post on Twitter and use #100DaysOfLoveChallenge.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
-    <section class="challenge">
-      <div class="challenge__container">
-        <div class="challenge__content">
-          <h2 class="challenge__title" id="challenge-of-the-day">Challenge of the Day</h2>
-          <div class="challenge__flex">
-            <div class="challenge__card-container">
-              <article class="challenge-card">
-                <div class="challenge-card__header">
-                  <h3 class="challenge-card__title"></h3>
-                  <p class="challenge-card__subtitle"></p>
-                </div>
-                <div class="challenge-card__love-icon"></div>
-                <p class="challenge-card__details"></p>
-              </article>
-              <input type="range" id="slider" class="slider">
-            </div>
-            <div class="share-love">
-              <p class="share-love__details">Did you show some love today by taking the challenge?
-                If so, encourage others and spread the vibes of love.</p>
-              <textarea
-                name="share-love__msg"
-                class="share-love__msg"
-                placeholder="Write your tweet"
-                maxlength="280"
-                minlength="10"
-                rows="5"
-                cols="33"></textarea>
-              <a class="share-love__twitter-btn" href="">
-                <div class="share-love__twitter-icon"></div>
-                Share this Tweet
-              </a>
+      <section class="challenge">
+        <div class="challenge__container">
+          <div class="challenge__content">
+            <h2 class="challenge__title" id="challenge-of-the-day">Challenge of the Day</h2>
+            <div class="challenge__flex">
+              <div class="challenge__card-container">
+                <article class="challenge-card">
+                  <div class="challenge-card__header">
+                    <h3 class="challenge-card__title"></h3>
+                    <p class="challenge-card__subtitle"></p>
+                  </div>
+                  <div class="challenge-card__love-icon"></div>
+                  <p class="challenge-card__details"></p>
+                </article>
+                <input type="range" id="slider" class="slider">
+              </div>
+              <div class="share-love">
+                <p class="share-love__details">Did you show some love today by taking the challenge?
+                  If so, encourage others and spread the vibes of love.</p>
+                <textarea
+                  name="share-love__msg"
+                  class="share-love__msg"
+                  placeholder="Write your tweet"
+                  maxlength="280"
+                  minlength="10"
+                  rows="5"
+                  cols="33"></textarea>
+                <a class="share-love__twitter-btn" target="_blank" href="">
+                  <div class="share-love__twitter-icon"></div>
+                  Share this Tweet
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="challenge-takers">
-      <div class="challenge-takers__container">
-        <div class="challenge-takers__content">
-          <h2 class="challenge-takers__title" id="recent-challenge-takers">Recent Challenge Takers</h2>
-          <ul class="challenge-takers__takers-container">
-            <li class="challenge-takers__taker">
-              <div class="challenge-takers__header">
-                <img alt="twitter user profile picture" src="" class="challenge-takers__taker-pic">
-                <a href="" class="challenge-takers__taker-name">@twitter handle</a>
-              </div>
-              <p class="challenge-takers__taker-tweet"></p>
-            </li>
-            <li class="challenge-takers__taker">
-              <div class="challenge-takers__header">
-                <img alt="twitter user profile picture" src="" class="challenge-takers__taker-pic">
-                <a href="" class="challenge-takers__taker-name">@twitter handle</a>
-              </div>
-              <p class="challenge-takers__taker-tweet"></p>
-            </li>
-            <li class="challenge-takers__taker">
-              <div class="challenge-takers__header">
-                <img alt="twitter user profile picture" src="" class="challenge-takers__taker-pic">
-                <a href="" class="challenge-takers__taker-name">@twitter handle</a>
-              </div>
-              <p class="challenge-takers__taker-tweet"></p>
-            </li>
-          </ul>
+      <section class="challenge-takers">
+        <div class="challenge-takers__container">
+          <div class="challenge-takers__content">
+            <h2 class="challenge-takers__title" id="recent-challenge-takers">Recent Challenge Takers</h2>
+            <ul class="challenge-takers__takers-container">
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
-  </div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__content">
-        <div class="logo">
-          <a class="logo__link" href="">
-            <img class="logo__img" src="" alt="webpage logo" />
-          </a>
-        </div>
-        <div class="footer__links">
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <p class="footer__title">Product</p>
-            </li>
-            <li class="footer__list-item">
-              <a href="./about.html" class="footer__link">What is this?</a>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">How can I start?</a>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">Challenge of the Day</a>
-            </li>
-          </ul>
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <p class="footer__title">Community</p>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">Leaderboard</a>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">Resources</a>
-            </li>
-          </ul>
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <p class="footer__title">Social Links</p>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">
-                <span class="footer__icon footer__icon_fb"></span>
-                Facebook
-              </a>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">
-                <span class="footer__icon footer__icon_twitter"></span>
-                Twitter
-              </a>
-            </li>
-            <li class="footer__list-item">
-              <a href="" class="footer__link">
-                <span class="footer__icon footer__icon_instagram"></span>
-                Instagram
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__quote-and-authors">
-        <p class="footer__quote">
-          Love is not a noun to be defined, but a verb to be acted upon.
-        </p>
-        <div class="footer__divider"></div>
-        <p class="footer__authors">
-          Made with &hearts; by Yuffie, Nitzan & Shraddha
-        </p>
-      </div>
+      </section>
     </div>
-  </footer>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="logo">
+            <a class="logo__link" href="">
+              <img class="logo__img" src="" alt="webpage logo" />
+            </a>
+          </div>
+          <div class="footer__links">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <p class="footer__title">Product</p>
+              </li>
+              <li class="footer__list-item">
+                <a href="./about.html" class="footer__link">What is this?</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">How can I start?</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">Challenge of the Day</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <p class="footer__title">Community</p>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">Leaderboard</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">Resources</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <p class="footer__title">Social Links</p>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">
+                  <span class="footer__icon footer__icon_fb"></span>
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">
+                  <span class="footer__icon footer__icon_twitter"></span>
+                  Twitter
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="" class="footer__link">
+                  <span class="footer__icon footer__icon_instagram"></span>
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__quote-and-authors">
+          <p class="footer__quote">
+            Love is not a noun to be defined, but a verb to be acted upon.
+          </p>
+          <div class="footer__divider"></div>
+          <p class="footer__authors">
+            Made with &hearts; by Yuffie, Nitzan & Shraddha
+          </p>
+        </div>
+      </div>
+    </footer>
+    <template id="card-template">
+      <li class="challenge-takers__taker">
+        <div class="challenge-takers__header">
+          <div class="challenge-takers__taker-pic-container">
+            <img alt="twitter user profile picture" src="" class="challenge-takers__taker-pic">
+          </div>
+          <a href="" class="challenge-takers__taker-name"></a>
+        </div>
+        <p class="challenge-takers__taker-tweet"></p>
+      </li>
+    </template>
   </body>
 </html>
