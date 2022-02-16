@@ -1,0 +1,26 @@
+.challenge-card__subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.challenge-card__subtitle::before,
+.challenge-card__subtitle::after {
+  color: #ffffff;
+  font-family: 'Rowdies', cursive;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.challenge-card__subtitle::before {
+  content: open-quote;
+}
+
+.challenge-card__subtitle::after {
+  content: close-quote;
+}
