@@ -1,0 +1,11 @@
+.share-love__twitter-icon {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 44.3px;
+  height: 34px;
+  background-image: url(../../../images/twitter.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

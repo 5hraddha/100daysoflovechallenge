@@ -1,0 +1,17 @@
+.challenge-card__title {
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1171px) {
+  .challenge-card__title {
+    font-size: 24px;
+    padding: 0 0 10px;
+  }
+}

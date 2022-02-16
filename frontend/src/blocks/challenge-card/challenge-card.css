@@ -1,0 +1,33 @@
+.challenge-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  min-height: 420px;
+  border-radius: 5px;
+  background: linear-gradient(to top,#ffffff 55%, #ea7186 55%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1171px) {
+  .challenge-card {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .challenge-card {
+    max-width: 300px;
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .challenge-card {
+    transform: translateX(-20px);
+  }
+}
