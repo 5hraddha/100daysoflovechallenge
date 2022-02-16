@@ -55,6 +55,7 @@
 @import url(../blocks/challenge/challenge.css);
 @import url(../blocks/challenge/__container/challenge__container.css);
 @import url(../blocks/challenge/__content/challenge__content.css);
+@import url(../blocks/challenge/__card-container/challenge__card-container.css);
 @import url(../blocks/challenge/__flex/challenge__flex.css);
 @import url(../blocks/challenge/__title/challenge__title.css);
 
@@ -66,7 +67,6 @@
 
 /* stylesheets for the block - slider */
 @import url(../blocks/slider/slider.css);
-@import url(../blocks/slider/__element/slider__element.css);
 
 /* stylesheets for the block - share-love */
 @import url(../blocks/share-love/share-love.css);
