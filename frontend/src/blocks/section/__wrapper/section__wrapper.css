@@ -8,10 +8,14 @@
   padding: 80px;
   max-width: 1440px;
   margin: auto;
+  direction: ltr;
 }
 
 .section__wrapper:nth-child(2) {
   direction: rtl;
+  background-color: #b6d8f2;
+  background-size: 100%;
+  column-gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,7 +24,7 @@
       "title title"
       "img img"
       "text text";
-      padding: 40px;
+    padding: 40px;
   }
 
   .section__wrapper:nth-child(2) {
@@ -30,6 +34,6 @@
 
 @media screen and (max-width: 400px) {
   .section__wrapper {
-      padding: 5px;
+    padding: 5px;
   }
 }
