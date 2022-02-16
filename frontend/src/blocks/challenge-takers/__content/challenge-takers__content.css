@@ -1,0 +1,6 @@
+.challenge-takers__content {
+  margin: 0 auto;
+  padding: 0;
+  grid-column: 2;
+  width: 100%;
+}

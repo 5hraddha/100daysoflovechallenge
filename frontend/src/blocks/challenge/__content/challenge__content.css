@@ -1,0 +1,12 @@
+.challenge__content {
+  margin: 0 auto;
+  padding: 150px 0;
+  grid-column: 2;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .challenge__content  {
+    padding: 30px 0;
+  }
+}

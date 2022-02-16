@@ -1,0 +1,40 @@
+.share-love__msg {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  background-color: #F5F3F3;
+  color: #1DA1F2;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  transition: all ease-in-out .2s;
+}
+
+.share-love__msg::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1DA1F2;
+}
+
+.share-love__msg:focus,
+.share-love__msg:hover {
+  outline: 2px solid #1DA1F2;
+  outline-offset: -4px;
+  border: 1px solid #1DA1F2;
+  background-color: #F5F3F3;
+}
+
+@media screen and (max-width: 978px) {
+  .share-love__msg {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,9 @@
+.slider {
+  position: absolute;
+  top: 64%;
+  right: -10%;
+  display: inline-block;
+  width: 20px;
+  height: 420px;
+  padding: 0;
+}

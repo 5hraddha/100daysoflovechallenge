@@ -1,0 +1,22 @@
+.challenge__title {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+/* @media screen and (max-width: 850px) {
+  .challenge__title  {
+    text-align: center;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .challenge__title  {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
