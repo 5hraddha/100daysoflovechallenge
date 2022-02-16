@@ -9,9 +9,15 @@
   color: #ea7186;
 }
 
-@media screen and (max-width: 768px) {
-  .how-to-start__title  {
-    margin: 20px 0;
+/* @media screen and (max-width: 850px) {
+  .how-to-start__title {
     text-align: center;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .how-to-start__title {
+    text-align: center;
+    margin: 40px 0;
   }
 }

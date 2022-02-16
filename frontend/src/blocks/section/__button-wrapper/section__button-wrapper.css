@@ -1,0 +1,5 @@
+.section__button-wrapper {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
