@@ -1,15 +1,17 @@
 .section__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   grid-template-rows: min-content repeat(3 auto);
   grid-template-areas:
     "title img"
     "text img";
+  padding: 80px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .section__wrapper:nth-child(2) {
   direction: rtl;
-  background: #b6d8f2;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,9 +20,16 @@
       "title title"
       "img img"
       "text text";
+      padding: 40px;
   }
 
   .section__wrapper:nth-child(2) {
     direction: ltr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section__wrapper {
+      padding: 5px;
   }
 }

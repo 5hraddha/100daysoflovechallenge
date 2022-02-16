@@ -37,6 +37,7 @@
 @import url(../blocks/section/__text-wrapper/section__text-wrapper.css);
 @import url(../blocks/section/__button/section__button.css);
 @import url(../blocks/section/__button-wrapper/section__button-wrapper.css);
+@import url(../blocks/section/__background-wrapper/section__background-wrapper.css);
 
 /* stylesheets for the block - footer */
 @import url(../blocks/footer/footer.css);

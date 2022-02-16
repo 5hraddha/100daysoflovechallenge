@@ -9,17 +9,17 @@
     border-radius: 8px;
     max-width: 453px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 768px) {
     .section__button {
-        font-size: 20px;
-        padding: 16px 40px;
+      font-size: 16px;
     }
-}
-@media screen and (max-width: 350px) {
+  }
+  
+  @media screen and (max-width: 425px) {
     .section__button {
-        font-size: 16px;
-        padding: 12px 30px;
+      font-size: 14px;
     }
-}
+  }

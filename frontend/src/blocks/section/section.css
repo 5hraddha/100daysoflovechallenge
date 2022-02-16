@@ -3,6 +3,9 @@
   padding: 0;
   grid-column: 2;
   width: 100%;
-  max-width: 1024px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 0;
 }
+
+
