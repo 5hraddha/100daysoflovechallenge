@@ -18,7 +18,10 @@ import {
   navList,
   sliderElement,
   challengeCardTitleElement,
+  challengeCardSubtitleElement,
   challengeCardDetails,
+  shareLoveMsgTextAreaElement,
+  shareLoveTwitterButton,
 } from "../utils/constants.js";
 import listOfChallenges, { dailyChallenges } from "../utils/challenges.js";
 
@@ -71,19 +74,35 @@ sliderElement.max = "100";
 sliderElement.min = "1";
 
 //Set initial value on page load
-challengeCardTitleElement.textContent = `${dailyChallenges[0].day} - ${dailyChallenges[0].quote}`;
-challengeCardDetails.textContent = dailyChallenges[0].detail;
-sliderElement.value = 1;
-
-const getChallenge = (selectedSliderValue) => {
+const setTodaysChallenge = (selectedSliderValue) => {
   const challengeItem = dailyChallenges[selectedSliderValue - 1];
-  challengeCardTitleElement.textContent = `${challengeItem.day} - ${challengeItem.quote}`;
+  challengeCardTitleElement.textContent = `${challengeItem.day}`;
+  challengeCardSubtitleElement.textContent = `${challengeItem.quote}`;
   challengeCardDetails.textContent = challengeItem.detail;
+  sliderElement.value = selectedSliderValue;
 }
 
+const setTweetMsg = (selectedSliderValue) => {
+  const challengeItem = dailyChallenges[selectedSliderValue - 1];
+  shareLoveMsgTextAreaElement.textContent = `Hey Everyone, I have completed ${challengeItem.day} #100DaysOfLoveChallenge - ${challengeItem.detail} Would you join me in spreading love? Visit websiteURL`;
+}
+
+setTodaysChallenge(59);
+setTweetMsg(59);
+
 sliderElement.addEventListener("change", () => {
-  getChallenge(sliderElement.value);
+  setTodaysChallenge(sliderElement.value);
+  setTweetMsg(sliderElement.value)
 });
+
+// ********************************************************************************************* //
+//                                        Send Tweet                                             //
+// ********************************************************************************************* //
+shareLoveTwitterButton.addEventListener("click", () => {
+  const msg = shareLoveMsgTextAreaElement.textContent;
+  const urlEncodedMsg = encodeURIComponent(msg);
+  shareLoveTwitterButton.href = `https://twitter.com/intent/tweet?text=${urlEncodedMsg}`;
+})
 
 // ********************************************************************************************* //
 //                                        Toggle Hamburger                                       //

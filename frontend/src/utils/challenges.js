@@ -1,12 +1,12 @@
 export const dailyChallenges = [
     {
         day: "Day 1",
-        quote: "Be kind, for everyone you meet is fighting a battle",
+        quote: "Words can be beautiful but love is action",
         detail: "Pass on your Pound/Dollar/Euro when you are shopping."
     },
     {
         day: "Day 2",
-        quote: "Caring is simply an opportunity to show love and care",
+        quote: "Words can be beautiful but love is action",
         detail: "Buy someone homeless a hot drink. "
     },
     {
@@ -211,6 +211,7 @@ export const dailyChallenges = [
     },
     {
         day: "Day 43",
+        quote: "Words can be beautiful but love is action",
         detail: "Encourage a stranger when they need it."
     },
     {
@@ -355,6 +356,7 @@ export const dailyChallenges = [
     },
     {
         day: "Day 72",
+        quote: "Words can be beautiful but love is action",
         detail: "Explain patiently to your kids even if you are tired."
     },
     {

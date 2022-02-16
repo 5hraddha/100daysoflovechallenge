@@ -1,8 +1,8 @@
 .challenge-card__love-icon {
   margin: 0;
   padding: 0;
-  width: 96.64px;
-  height: 96.64px;
+  width: 80px;
+  height: 80px;
   background-color: #ffffff;
   background-image: url(../../../images/card-love-icon.svg);
   background-position: center;
@@ -11,5 +11,5 @@
   box-shadow: 0 0 0 8px #ffffff;
   border-radius: 50%;
   position: relative;
-  bottom: -12%;
+  bottom: -8%;
 }
