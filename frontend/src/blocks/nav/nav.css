@@ -1,19 +1,9 @@
 .nav {
   margin: 0;
   padding: 0;
-  width: 72%;
+  width: 100%;
   max-width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  top: 70px;
-  left: 200px;
-}
-
-@media screen and (max-width: 768px) {
-  .nav {
-    left: 0;
-    margin: auto;
-  }
 }
