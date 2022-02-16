@@ -3,10 +3,16 @@
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-  background-color: #F5F3F3;
+  background-color: #f5f3f3;
   color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    font-size: 18px;
+  }
 }

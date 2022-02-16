@@ -14,13 +14,34 @@ import heartFaceImage from "../images/heart-face-image.png";
 
 import heartHandsImage from "../images/share-your-love-image.png";
 
-// import heartHandsImage from "../images/share-your-love-image";
-
-const imgTag = document.querySelector(".section__image");
+const imgTag = document.querySelector("#holding-balloons-img");
 imgTag.src = heartBallonsImage;
 
-// const imgTag = document.querySelector(".section__image");
-// imgTag.src = heartFaceImage;
+const headerLogo = document.querySelector(".logo__img");
+headerLogo.src = logo;
 
-// const imgTag = document.querySelector(".section__image");
-// imgTag.src = heartHandsImage;
+const heartFace = document.querySelector("#heart-face-img");
+heartFace.src = heartFaceImage;
+
+const heartWithHands = document.querySelector("#heart-with-hands-img");
+heartWithHands.src = heartHandsImage;
+
+const footerLogo = document.querySelector("footer .logo__img");
+footerLogo.src = logo;
+
+// Import constants
+import { pageLogoImgElements, hamburger, navList } from "../utils/constants.js";
+
+// Function to toggle hamburger
+const toggleHamburger = () => {
+  hamburger.classList.toggle("hamburger_active");
+  navList.classList.toggle("nav__list_active");
+};
+
+hamburger.addEventListener("click", toggleHamburger);
+
+// Function to close the mobile menu if any of the menu link is clicked
+const closeMobileMenu = () => {
+  hamburger.classList.remove("hamburger_active");
+  navList.classList.remove("nav__list_active");
+};

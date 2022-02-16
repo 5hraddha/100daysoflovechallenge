@@ -1,0 +1,12 @@
+.section__text-wrapper {
+  grid-area: text;
+  margin: 0 auto;
+  justify-self: center;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section__text-wrapper {
+    margin: 20px auto;
+  }
+}

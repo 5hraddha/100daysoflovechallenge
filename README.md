@@ -15,10 +15,18 @@
 3. [Shraddha](https://github.com/5hraddha) | Web Developer
 
 ## 100 days of Love Challenge - About the App
+Valentine’s day is such a fun day, but it happend just once a year. That’s why we’ve come up with “100 days of love” , a 100-day challenge that gives you the opportunity to celebrate your love with the world on a daily basis.
 
+Over these 100 days, you’ll get 100 different challenges to complete in action.
+
+These little love gestures can cheer up someone who has a difficult day, give someone feeling lonely a smile or laugh, or even imporve your relationship with them.
 
 ## Features of the App
+#This “100 days of love” challenge is free, fun and easy to use. You can start now. All you’ve got to do is follow these simple steps:
 
+#For the next 100 days, check out the challenge of the day. Find a person you’d like to share love with and complete the action in the challenge.
+
+#Don’t forget to share this with the world, it may even encourge someone else to join, too.
 
 ## Technologies and Standards Used in UI/UX
 1. Figma
@@ -44,7 +52,7 @@
 The website is using [BEM — Block Element Modifier](https://en.bem.info/methodology/quick-start/) methodology to create reusable and understandable components in CSS. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast and it allows reuse of existing code without copying and pasting. We are also using [Nested BEM File structure organization](https://en.bem.info/methodology/filestructure/#nested) for CSS.
 
 ## Product Specification Document
-You can view the product specification document [here]().
+You can view the product specification document [here]((https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
 
 ## Future Improvements
 

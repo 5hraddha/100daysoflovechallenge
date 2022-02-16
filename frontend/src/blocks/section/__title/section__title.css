@@ -1,17 +1,19 @@
 .section__title {
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
-  text-align: right;
   color: #ea7186;
+  align-self: center;
+  grid-area: title;
 }
 
 @media screen and (max-width: 768px) {
   .section__title {
     margin: 20px 0;
     text-align: center;
+    font-size: 35px;
   }
 }

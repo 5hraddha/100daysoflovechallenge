@@ -1,0 +1,25 @@
+.section__button {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    line-height: 1.362;
+    background-color: #EA7186;
+    padding: 16px 50px;
+    border: none;
+    border-radius: 8px;
+    max-width: 453px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 530px) {
+    .section__button {
+        font-size: 20px;
+        padding: 16px 40px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .section__button {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+}
