@@ -52,7 +52,7 @@ These little love gestures can cheer up someone who has a difficult day, give so
 The website is using [BEM — Block Element Modifier](https://en.bem.info/methodology/quick-start/) methodology to create reusable and understandable components in CSS. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast and it allows reuse of existing code without copying and pasting. We are also using [Nested BEM File structure organization](https://en.bem.info/methodology/filestructure/#nested) for CSS.
 
 ## Product Specification Document
-You can view the product specification document [here]((https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
+You can view the product specification document [here](https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
 
 ## Future Improvements
 

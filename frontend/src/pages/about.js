@@ -31,9 +31,11 @@ footerLogo.src = logo;
 
 // Import constants
 import { pageLogoImgElements, hamburger, navList } from "../utils/constants.js";
-
+const headerHeight = document.querySelector("header")
 // Function to toggle hamburger
+// Specifically for the about page, we want the header to extend when menu button is clicked
 const toggleHamburger = () => {
+  headerHeight.classList.toggle("header_page_about_active")
   hamburger.classList.toggle("hamburger_active");
   navList.classList.toggle("nav__list_active");
 };
@@ -45,3 +47,4 @@ const closeMobileMenu = () => {
   hamburger.classList.remove("hamburger_active");
   navList.classList.remove("nav__list_active");
 };
+console.log(headerHeight.classList)
