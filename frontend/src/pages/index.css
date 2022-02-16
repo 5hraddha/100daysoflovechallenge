@@ -51,6 +51,36 @@
 @import url(../blocks/step-card/__divider/step-card__divider.css);
 @import url(../blocks/step-card/__text/step-card__text.css);
 
+/* stylesheets for the block - challenge */
+@import url(../blocks/challenge/challenge.css);
+@import url(../blocks/challenge/__container/challenge__container.css);
+@import url(../blocks/challenge/__content/challenge__content.css);
+@import url(../blocks/challenge/__flex/challenge__flex.css);
+@import url(../blocks/challenge/__title/challenge__title.css);
+
+/* stylesheets for the block - challenge-card */
+@import url(../blocks/challenge-card/challenge-card.css);
+@import url(../blocks/challenge-card/__title/challenge-card__title.css);
+@import url(../blocks/challenge-card/__love-icon/challenge-card__love-icon.css);
+@import url(../blocks/challenge-card/__details/challenge-card__details.css);
+
+/* stylesheets for the block - slider */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__element/slider__element.css);
+
+/* stylesheets for the block - share-love */
+@import url(../blocks/share-love/share-love.css);
+@import url(../blocks/share-love/__details/share-love__details.css);
+@import url(../blocks/share-love/__msg/share-love__msg.css);
+@import url(../blocks/share-love/__twitter-btn/share-love__twitter-btn.css);
+@import url(../blocks/share-love/__twitter-icon/share-love__twitter-icon.css);
+
+/* stylesheets for the block - challenge-takers */
+@import url(../blocks/challenge-takers/challenge-takers.css);
+@import url(../blocks/challenge-takers/__container/challenge-takers__container.css);
+@import url(../blocks/challenge-takers/__content/challenge-takers__content.css);
+@import url(../blocks/challenge-takers/__title/challenge-takers__title.css);
+
 /* stylesheets for the block - footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

@@ -1,0 +1,13 @@
+.challenge {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #b6D8f2;
+  clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .challenge {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
