@@ -1,11 +1,9 @@
 .section {
-  margin: 0 auto;
+  margin: 0 auto 80px;
   padding: 0;
   grid-column: 2;
   width: 100%;
   box-sizing: border-box;
-  position: relative;
-  z-index: 0;
 }
 
 

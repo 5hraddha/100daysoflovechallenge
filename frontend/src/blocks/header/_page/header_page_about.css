@@ -1,4 +1,10 @@
 .header_page_about {
     background-image: none;
     min-height: 25vh;
+    transition: ease-out 0.3s;
+}
+
+.header_page_about_active {
+    min-height: 85vh;
+    transition: ease-out 0.3s;
 }

@@ -36,7 +36,6 @@
 @import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/section/__text-wrapper/section__text-wrapper.css);
 @import url(../blocks/section/__button/section__button.css);
-@import url(../blocks/section/__button-wrapper/section__button-wrapper.css);
 @import url(../blocks/section/__background-wrapper/section__background-wrapper.css);
 
 /* stylesheets for the block - footer */
@@ -59,3 +58,5 @@
 
 /* header modifier */
 @import url(../blocks/header/_page/header_page_about.css);
+/* nav__item modifier */
+@import url(../blocks/nav/__item/_page/nav__item_page_about.css);
