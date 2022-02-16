@@ -25,9 +25,3 @@
     padding: 35px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .challenge-card {
-    transform: translateX(-20px);
-  }
-}
