@@ -29,6 +29,7 @@
 
 /* stylesheets for the block - section */
 @import url(../blocks/section/section.css);
+@import url(../blocks/bolded-text/bolded-text.css);
 @import url(../blocks/section/__about/section__about.css);
 @import url(../blocks/section/__wrapper/section__wrapper.css);
 @import url(../blocks/section/__title/section__title.css);
@@ -60,3 +61,5 @@
 @import url(../blocks/header/_page/header_page_about.css);
 /* nav__item modifier */
 @import url(../blocks/nav/__item/_page/nav__item_page_about.css);
+/* section__wrapper modifier */
+@import url(../blocks/section/__wrapper/_reverse/section__wrapper_reverse.css);

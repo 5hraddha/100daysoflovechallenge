@@ -39,6 +39,7 @@
 
 /* stylesheets for the block - how-to-start */
 @import url(../blocks/how-to-start/how-to-start.css);
+@import url(../blocks/bolded-text/bolded-text.css);
 @import url(../blocks/how-to-start/__container/how-to-start__container.css);
 @import url(../blocks/how-to-start/__content/how-to-start__content.css);
 @import url(../blocks/how-to-start/__steps/how-to-start__steps.css);
@@ -50,6 +51,7 @@
 @import url(../blocks/step-card/__number/step-card__number.css);
 @import url(../blocks/step-card/__divider/step-card__divider.css);
 @import url(../blocks/step-card/__text/step-card__text.css);
+@import url(../blocks/step-card/__text/_bold/step-card__text_bold.css);
 
 /* stylesheets for the block - challenge */
 @import url(../blocks/challenge/challenge.css);

@@ -25,7 +25,7 @@ import {
   shareLoveTwitterButton,
   challengeTakersCardList,
 } from "../utils/constants.js";
-import listOfChallenges, { dailyChallenges } from "../utils/challenges.js";
+import { dailyChallenges } from "../utils/challenges.js";
 
 // ********************************************************************************************* //
 //                                        Set images                                             //
@@ -97,8 +97,14 @@ const setTweetMsg = (selectedSliderValue) => {
   shareLoveMsgTextAreaElement.textContent = `Hey Everyone, I have completed ${challengeItem.day} #100DaysOfLoveChallenge - ${challengeItem.detail} Would you join me in spreading love? @100daysoflovez Visit - https://100daysoflove.netlify.app/`;
 }
 
-setTodaysChallenge(59);
-setTweetMsg(59);
+const getRandomNumberOfDay = (min, max) => {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+const randomNumberOfDay = getRandomNumberOfDay(1,100);
+setTodaysChallenge(randomNumberOfDay);
+setTweetMsg(randomNumberOfDay);
 
 sliderElement.addEventListener("change", () => {
   setTodaysChallenge(sliderElement.value);

@@ -2,8 +2,6 @@
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  /* grid-column: 2;
-  grid-row: 1/3; */
   grid-area: img;
   max-width: 450px;
   cursor: pointer;
