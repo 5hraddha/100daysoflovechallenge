@@ -1,0 +1,22 @@
+.section__wrapper_reverse {
+    background-color: #b6d8f2;
+    background-size: 100%;
+    column-gap: 40px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    grid-template-areas:
+      "img title"
+      "img text";
+    direction: ltr;
+  }
+
+  @media screen and (max-width: 885px) {
+    .section__wrapper_reverse {
+        grid-template-areas:
+        "title title"
+        "img img"
+        "text text";
+        padding: 40px;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+      }
+  }

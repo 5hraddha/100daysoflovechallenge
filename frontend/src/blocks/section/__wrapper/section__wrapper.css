@@ -1,7 +1,5 @@
 .section__wrapper {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: min-content repeat(3 auto);
   grid-template-areas:
     "title img"
     "text img";
@@ -9,26 +7,18 @@
   max-width: 1440px;
   margin: auto;
   direction: ltr;
+  clip-path: polygon(0 16%, 100% 0%, 100% 85%, 0% 100%);
 }
 
-.section__wrapper:nth-child(2) {
-  direction: rtl;
-  background-color: #b6d8f2;
-  background-size: 100%;
-  column-gap: 40px;
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 885px) {
   .section__wrapper {
     grid-template-areas:
       "title title"
       "img img"
       "text text";
     padding: 40px;
-  }
-
-  .section__wrapper:nth-child(2) {
-    direction: ltr;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   }
 }
 
