@@ -29,6 +29,7 @@
 
 /* stylesheets for the block - section */
 @import url(../blocks/section/section.css);
+@import url(../blocks/bolded-text/bolded-text.css);
 @import url(../blocks/section/__about/section__about.css);
 @import url(../blocks/section/__wrapper/section__wrapper.css);
 @import url(../blocks/section/__title/section__title.css);
