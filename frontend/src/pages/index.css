@@ -50,6 +50,7 @@
 @import url(../blocks/step-card/__number/step-card__number.css);
 @import url(../blocks/step-card/__divider/step-card__divider.css);
 @import url(../blocks/step-card/__text/step-card__text.css);
+@import url(../blocks/step-card/__text/_bold/step-card__text_bold.css);
 
 /* stylesheets for the block - challenge */
 @import url(../blocks/challenge/challenge.css);

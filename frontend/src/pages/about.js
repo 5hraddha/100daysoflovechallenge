@@ -5,14 +5,14 @@
 import "../pages/about.css";
 
 import logo from "../images/logo.svg";
-import logoMobile from "../images/logo-mobile.svg";
-import heroImage from "../images/background-image.png";
-import heroImageMobile from "../images/background-image-mobile.png";
-
 import heartBallonsImage from "../images/holding-ballons-of-love-image.png";
 import heartFaceImage from "../images/heart-face-image.png";
-
 import heartHandsImage from "../images/share-your-love-image.png";
+import { hamburger, navList } from "../utils/constants.js";
+
+// ********************************************************************************************* //
+//                                      Set the image sources                                    //
+// ********************************************************************************************* //
 
 const imgTag = document.querySelector("#holding-balloons-img");
 imgTag.src = heartBallonsImage;
@@ -29,9 +29,11 @@ heartWithHands.src = heartHandsImage;
 const footerLogo = document.querySelector("footer .logo__img");
 footerLogo.src = logo;
 
-// Import constants
-import { pageLogoImgElements, hamburger, navList } from "../utils/constants.js";
 const headerHeight = document.querySelector("header")
+
+// ********************************************************************************************* //
+//                                        Toggle Hamburger                                       //
+// ********************************************************************************************* //
 // Function to toggle hamburger
 // Specifically for the about page, we want the header to extend when menu button is clicked
 const toggleHamburger = () => {
@@ -39,12 +41,12 @@ const toggleHamburger = () => {
   hamburger.classList.toggle("hamburger_active");
   navList.classList.toggle("nav__list_active");
 };
-
 hamburger.addEventListener("click", toggleHamburger);
 
 // Function to close the mobile menu if any of the menu link is clicked
 const closeMobileMenu = () => {
+  headerHeight.classList.remove("header_page_about_active")
   hamburger.classList.remove("hamburger_active");
   navList.classList.remove("nav__list_active");
 };
-console.log(headerHeight.classList)
+navList.addEventListener("click", closeMobileMenu);
