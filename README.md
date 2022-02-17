@@ -3,11 +3,16 @@
 - [Team Members](#team-members)
 - [100 days of Love Challenge - About the App](#100-days-of-love-challenge---about-the-app)
 - [Features of the App](#features-of-the-app)
+- [Architecture of the App](#architecture-of-the-app)
 - [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-uiux)
 - [Technologies and Standards Used in Frontend Development](#technologies-and-standards-used-in-frontend-development)
+  - [!js-icon](#)
+  - [!node-icon](#-1)
+  - [!express-icon](#-2)
+  - [!postman-icon](#-3)
 - [Product Specification Document](#product-specification-document)
 - [Future Improvements](#future-improvements)
-- [Live Demo](#live-demo)
+- [Live Website](#live-website)
 
 ## Team Members
 1. [Yuffie Hu](https://github.com/yuff1006) | Web Developer
@@ -15,18 +20,20 @@
 3. [Shraddha](https://github.com/5hraddha) | Web Developer
 
 ## 100 days of Love Challenge - About the App
-Valentine’s day is such a fun day, but it happend just once a year. That’s why we’ve come up with “100 days of love” , a 100-day challenge that gives you the opportunity to celebrate your love with the world on a daily basis.
+> “*Love is not words, it's actions. Love isn't feelings, it's a decision. Let's make it a habit.*”.
 
-Over these 100 days, you’ll get 100 different challenges to complete in action.
+Valentine’s day is such a fun day, but it comes once a year. That’s why we’ve come up with **100 Days Of Love Challenge** , a 100-day challenge that helps you to celebrate your love with the world daily and encourage others too to do the same.
 
-These little love gestures can cheer up someone who has a difficult day, give someone feeling lonely a smile or laugh, or even imporve your relationship with them.
+These little gestures of love can cheer up someone who has a difficult day, give someone feeling lonely a smile or laugh, or even improve your relationship with them.
 
 ## Features of the App
-#This “100 days of love” challenge is free, fun and easy to use. You can start now. All you’ve got to do is follow these simple steps:
+1. Gives you a challenge everyday to encourage you to extend your love and care to someone else.
+2. Have functionality to share your tweet on Twitter. The tweet message has been pre-filled for you with our hashtag *#100daysoflovechallenge*.
+3. The webpage also gives the freedom to user to select any other challenge that they might want to try through a slider.
+4. And the best part is that the webpage is connected to Twitter API to pull the list of all the users who have recently attempted the challenge and tweeted it. We even route you to the fellow users' twitter profile who are in this challenge with you.
 
-#For the next 100 days, check out the challenge of the day. Find a person you’d like to share love with and complete the action in the challenge.
-
-#Don’t forget to share this with the world, it may even encourge someone else to join, too.
+## Architecture of the App
+<img src="frontend/src/images/web-app-architecture.png" width=500>
 
 ## Technologies and Standards Used in UI/UX
 1. Figma
@@ -36,6 +43,28 @@ These little love gestures can cheer up someone who has a difficult day, give so
 1. HTML (Hyper Text Markup Language)
 2. CSS (Cascading Style Sheets)
 3. JavaScript
+4. Node.js
+5. Express Framework (for development)
+6. Postman (for testing API endpoint)
+
+### ![js-icon](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+- **Javascript** has been use dto code the frontend of the webpage and add interactivity to it.
+### ![node-icon](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+- **Node** (or more formally *Node.js*) is an *open-source*, *cross-platform* runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. 
+- *Node. js* is primarily used for non-blocking, event-driven servers, due to its single-threaded nature. 
+- It's used for traditional web sites and back-end API services.
+
+### ![express-icon](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+- **Express** is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks. 
+- It provides mechanisms to:
+  - Write handlers for requests with different HTTP verbs at different URL paths (routes).
+  - Integrate with "view" rendering engines in order to generate responses by inserting data into templates.
+  - Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
+  - Add additional request processing "middleware" at any point within the request handling pipeline.
+
+### ![postman-icon](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
+- **Postman** is an API client that makes it easy for developers to create, share, test and document APIs. 
+- This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses.
 
 **There are various tools that have been used throughout the project design and development:**
 | Tools                                             | Usage                                             |
@@ -55,7 +84,10 @@ The website is using [BEM — Block Element Modifier](https://en.bem.info/me
 You can view the product specification document [here](https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
 
 ## Future Improvements
+1. Enables users to login and have their profiles.
+2. Implement a users dashboard where they can view their status.
 
+## Live Website
+Enjoy the live web app [here](https://100daysoflove.netlify.app/).  
 
-## Live Demo
-Enjoy the live web app [here]().
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5355807f-04e6-418a-bded-08ff624bfa09/deploy-status)](https://app.netlify.com/sites/100daysoflove/deploys)
