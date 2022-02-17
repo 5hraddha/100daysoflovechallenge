@@ -13,6 +13,7 @@
 - [Product Specification Document](#product-specification-document)
 - [Steps to run the App on local machine](#steps-to-run-the-app-on-local-machine)
 - [Future Improvements](#future-improvements)
+- [Our Social Links](#our-social-links)
 - [Live Website](#live-website)
 
 ## Team Members
@@ -28,6 +29,9 @@ Valentine’s day is such a fun day, but it comes once a year. That’s why we�
 
 These little gestures of love can cheer up someone who has a difficult day, give someone feeling lonely a smile or laugh, or even improve your relationship with them.
 
+<img src="https://raw.githubusercontent.com/5hraddha/misc/master/images/index_page.png" width=300>
+<img src="https://raw.githubusercontent.com/5hraddha/misc/master/images/about_page.png" width=300>
+
 ## Features of the App
 1. Gives you a challenge everyday to encourage you to extend your love and care to someone else.
 2. Have functionality to share your tweet on Twitter. The tweet message has been pre-filled for you with our hashtag *#100daysoflovechallenge*.
@@ -35,7 +39,7 @@ These little gestures of love can cheer up someone who has a difficult day, give
 4. And the best part is that the webpage is connected to Twitter API to pull the list of all the users who have recently attempted the challenge and tweeted it. We even route you to the fellow users' twitter profile who are in this challenge with you.
 
 ## Architecture of the App
-<img src="frontend/src/images/web-app-architecture.png" width=500>
+<img src="https://raw.githubusercontent.com/5hraddha/misc/master/images/web-app-architecture.png" width=600>
 
 ## Technologies and Standards Used in UI/UX
 
@@ -87,7 +91,7 @@ The website is using [BEM — Block Element Modifier](https://en.bem.info/me
 
 ## Product Specification Document
 
-You can view the product specification document [here](https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
+You can view the product specification document that we designed before starting our development [here](https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
 
 ## Steps to run the App on local machine
 ```shell
@@ -115,6 +119,8 @@ npm run dev
 1. Enables users to login and have their profiles.
 2. Implement a users dashboard where they can view their status.
 
+## Our Social Links
+You could find us on Twitter - [@100daysoflovez](https://twitter.com/100daysoflovez)
 ## Live Website
 Enjoy the live web app [here](https://100daysoflove.netlify.app/).  
 
