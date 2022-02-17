@@ -94,7 +94,7 @@ const setTodaysChallenge = (selectedSliderValue) => {
 
 const setTweetMsg = (selectedSliderValue) => {
   const challengeItem = dailyChallenges[selectedSliderValue - 1];
-  shareLoveMsgTextAreaElement.textContent = `Hey Everyone, I have completed ${challengeItem.day} #100DaysOfLoveChallenge - ${challengeItem.detail} Would you join me in spreading love? Visit websiteURL`;
+  shareLoveMsgTextAreaElement.textContent = `Hey Everyone, I have completed ${challengeItem.day} #100DaysOfLoveChallenge - ${challengeItem.detail} Would you join me in spreading love? @100daysoflovez Visit - https://100daysoflove.netlify.app/`;
 }
 
 setTodaysChallenge(59);
