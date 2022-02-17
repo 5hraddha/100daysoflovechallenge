@@ -106,7 +106,7 @@ const randomNumberOfDay = getRandomNumberOfDay(1,100);
 setTodaysChallenge(randomNumberOfDay);
 setTweetMsg(randomNumberOfDay);
 
-sliderElement.addEventListener("change", () => {
+sliderElement.addEventListener("input", () => {
   setTodaysChallenge(sliderElement.value);
   setTweetMsg(sliderElement.value)
 });

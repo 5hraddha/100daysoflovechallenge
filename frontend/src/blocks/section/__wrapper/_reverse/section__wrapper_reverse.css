@@ -20,3 +20,10 @@
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
       }
   }
+
+  @media screen and (max-width: 400px) {
+    .section__wrapper {
+      padding: 5px;
+    }
+  }
+  
