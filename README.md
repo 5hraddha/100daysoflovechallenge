@@ -1,21 +1,19 @@
 <!-- omit in toc -->
-
-# 100 Days of Love Challenge :heartpulse: Team - _<WhoRunTheCode?Girls! />_
-
-- [100 Days of Love Challenge :heartpulse: Team - _<WhoRunTheCode?Girls! />_](#100-days-of-love-challenge-heartpulse-team---whorunthecodegirls-)
-  - [Team Members](#team-members)
-  - [100 days of Love Challenge - About the App](#100-days-of-love-challenge---about-the-app)
-  - [Features of the App](#features-of-the-app)
-  - [Architecture of the App](#architecture-of-the-app)
-  - [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-uiux)
-  - [Technologies and Standards Used in Frontend Development](#technologies-and-standards-used-in-frontend-development)
-    - [!js-icon](#)
-    - [!node-icon](#-1)
-    - [!express-icon](#-2)
-    - [!postman-icon](#-3)
-  - [Product Specification Document](#product-specification-document)
-  - [Future Improvements](#future-improvements)
-  - [Live Website](#live-website)
+# 100 Days of Love Challenge | Team - *<WhoRunTheCode?Girls! />*
+- [Team Members](#team-members)
+- [100 days of Love Challenge - About the App](#100-days-of-love-challenge---about-the-app)
+- [Features of the App](#features-of-the-app)
+- [Architecture of the App](#architecture-of-the-app)
+- [Technologies and Standards Used in UI/UX](#technologies-and-standards-used-in-uiux)
+- [Technologies and Standards Used in Frontend Development](#technologies-and-standards-used-in-frontend-development)
+  - [!Javascript](#)
+  - [!NodeJS](#-1)
+  - [!ExpressJS](#-2)
+  - [!Postman](#-3)
+- [Product Specification Document](#product-specification-document)
+- [Steps to run the App on local machine](#steps-to-run-the-app-on-local-machine)
+- [Future Improvements](#future-improvements)
+- [Live Website](#live-website)
 
 ## Team Members
 
@@ -59,14 +57,14 @@ These little gestures of love can cheer up someone who has a difficult day, give
 5. Express Framework (for development)
 6. Postman (for testing API endpoint)
 
-### ![js-icon](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+### ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 - **Javascript** has been use dto code the frontend of the webpage and add interactivity to it.
-### ![node-icon](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+### ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 - **Node** (or more formally *Node.js*) is an *open-source*, *cross-platform* runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. 
 - *Node. js* is primarily used for non-blocking, event-driven servers, due to its single-threaded nature. 
 - It's used for traditional web sites and back-end API services.
 
-### ![express-icon](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+### ![ExpressJS](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 - **Express** is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks. 
 - It provides mechanisms to:
   - Write handlers for requests with different HTTP verbs at different URL paths (routes).
@@ -74,7 +72,7 @@ These little gestures of love can cheer up someone who has a difficult day, give
   - Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
   - Add additional request processing "middleware" at any point within the request handling pipeline.
 
-### ![postman-icon](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
+### ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 - **Postman** is an API client that makes it easy for developers to create, share, test and document APIs. 
 - This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses.
 
@@ -90,6 +88,28 @@ The website is using [BEM — Block Element Modifier](https://en.bem.info/me
 ## Product Specification Document
 
 You can view the product specification document [here](https://www.figma.com/file/6t9dKE7hSvhJvyRRsEyevr/Untitled?node-id=2%3A2).
+
+## Steps to run the App on local machine
+```shell
+# Clone the repository
+git clone https://github.com/5hraddha/100daysoflovechallenge.git
+
+# Navigate to the code repository & install packages needed to run frontend & backend concurrently
+cd 100daysoflovechallenge
+npm install
+
+# Install packages needed to run frontend code
+cd frontend
+npm install
+
+# Install packages needed to run backend code
+cd ../backend
+npm install
+
+# Start the frontend & backend server concurrently
+cd ..
+npm run dev
+```
 
 ## Future Improvements
 1. Enables users to login and have their profiles.
