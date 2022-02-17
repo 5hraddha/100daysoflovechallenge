@@ -5,10 +5,6 @@
 import "../pages/about.css";
 
 import logo from "../images/logo.svg";
-<<<<<<< HEAD
-
-=======
->>>>>>> 9c6cb4be4f5167812fa0918d54a2776b96bc8a75
 import heartBallonsImage from "../images/holding-ballons-of-love-image.png";
 import heartFaceImage from "../images/heart-face-image.png";
 import heartHandsImage from "../images/share-your-love-image.png";
